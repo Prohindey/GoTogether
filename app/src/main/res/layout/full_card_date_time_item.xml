@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="183dp"
+        android:layout_height="65dp" xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_margin="10dp"
+        app:cardElevation="3dp"
+>
+
+
+    <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        <LinearLayout
+                android:layout_gravity="left"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+        >
+
+            <TextView
+                    android:fontFamily="@font/exo_reg"
+                    android:id="@+id/full_card_item_date"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="12.12.19"
+                    android:textSize="18dp"
+                    android:textColor="#000"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginTop="5dp"
+            />
+            <TextView
+                    android:fontFamily="@font/exo_reg"
+                    android:id="@+id/full_card_item_wdate"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="среда"
+                    android:textSize="18dp"
+                    android:textColor="#000"
+                    android:layout_margin="5dp"
+            />
+        </LinearLayout>
+
+
+        <LinearLayout
+                android:layout_gravity="right"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+        >
+
+            <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                <TextView
+                        android:fontFamily="@font/exo_reg"
+                        android:id="@+id/full_card_item_time_start"
+                        android:layout_gravity="right"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="C 12:00"
+                        android:textSize="18dp"
+                        android:textColor="#000"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_marginTop="5dp"
+                />
+            </FrameLayout>
+            <TextView
+                    android:fontFamily="@font/exo_reg"
+                    android:id="@+id/full_card_item_time_end"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="До 18:00"
+                    android:textSize="18dp"
+                    android:textColor="#000"
+                    android:layout_margin="5dp"
+            />
+        </LinearLayout>
+    </FrameLayout>
+
+
+
+
+
+</androidx.cardview.widget.CardView>

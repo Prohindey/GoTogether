@@ -1,0 +1,468 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <LinearLayout
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        <LinearLayout
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+            <LinearLayout
+                    android:layout_margin="7dp"
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+            >
+                <me.itangqi.waveloadingview.WaveLoadingView
+                        android:layout_gravity="center"
+                        app:wlv_progressValue="0"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        app:wlv_borderColor="@color/colorPrimaryDark"
+                        app:wlv_borderWidth="2dp"
+                        app:wlv_shapeType="circle"
+                        app:wlv_round_rectangle="true"
+                        app:wlv_triangle_direction="north"
+                        app:wlv_titleCenterColor="#000"
+                        app:wlv_titleCenterSize="20dp"
+                        app:wlv_titleTopColor="#000"
+                        app:wlv_titleTopSize="20dp"
+                        app:wlv_titleBottomColor="#000"
+                        app:wlv_titleBottomSize="20dp"
+                        app:wlv_waveAmplitude="70"
+                        app:wlv_waveColor="@color/colorPrimaryDark"
+                />
+
+                <TextView
+                        android:gravity="center"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="Бизнес\n и образование"
+                        android:textColor="#000"
+                        android:textSize="13dp"
+                        android:fontFamily="@font/exo_med"
+                />
+
+            </LinearLayout>
+
+            <LinearLayout
+                    android:layout_margin="7dp"
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+            >
+                <me.itangqi.waveloadingview.WaveLoadingView
+                        android:layout_gravity="center"
+                        app:wlv_progressValue="0"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        app:wlv_borderColor="@color/colorPrimaryDark"
+                        app:wlv_borderWidth="2dp"
+                        app:wlv_shapeType="circle"
+                        app:wlv_round_rectangle="true"
+                        app:wlv_triangle_direction="north"
+                        app:wlv_titleCenterColor="#000"
+                        app:wlv_titleCenterSize="20dp"
+                        app:wlv_titleTopColor="#000"
+                        app:wlv_titleTopSize="20dp"
+                        app:wlv_titleBottomColor="#000"
+                        app:wlv_titleBottomSize="20dp"
+                        app:wlv_waveAmplitude="70"
+                        app:wlv_waveColor="@color/colorPrimaryDark"
+                />
+
+                <TextView
+                        android:gravity="center"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="Театр \n и кино"
+                        android:textColor="#000"
+                        android:textSize="13dp"
+                        android:fontFamily="@font/exo_med"
+                />
+
+            </LinearLayout>
+            <LinearLayout
+                    android:layout_margin="7dp"
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+            >
+                <me.itangqi.waveloadingview.WaveLoadingView
+                        app:wlv_progressValue="0"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        app:wlv_borderColor="@color/colorPrimaryDark"
+                        app:wlv_borderWidth="2dp"
+                        app:wlv_shapeType="circle"
+                        app:wlv_round_rectangle="true"
+                        app:wlv_triangle_direction="north"
+                        app:wlv_titleCenterColor="#000"
+                        app:wlv_titleCenterSize="20dp"
+                        app:wlv_titleTopColor="#000"
+                        app:wlv_titleTopSize="20dp"
+                        app:wlv_titleBottomColor="#000"
+                        app:wlv_titleBottomSize="20dp"
+                        app:wlv_waveAmplitude="70"
+                        app:wlv_waveColor="@color/colorPrimaryDark"
+                />
+
+                <TextView
+                        android:gravity="center"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="Танци \n и баллы "
+                        android:textColor="#000"
+                        android:textSize="13dp"
+                        android:fontFamily="@font/exo_med"
+                />
+
+            </LinearLayout>
+            <LinearLayout
+                    android:layout_margin="7dp"
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+            >
+                <me.itangqi.waveloadingview.WaveLoadingView
+                        app:wlv_progressValue="0"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        app:wlv_borderColor="@color/colorPrimaryDark"
+                        app:wlv_borderWidth="2dp"
+                        app:wlv_shapeType="circle"
+                        app:wlv_round_rectangle="true"
+                        app:wlv_triangle_direction="north"
+                        app:wlv_titleCenterColor="#000"
+                        app:wlv_titleCenterSize="20dp"
+                        app:wlv_titleTopColor="#000"
+                        app:wlv_titleTopSize="20dp"
+                        app:wlv_titleBottomColor="#000"
+                        app:wlv_titleBottomSize="20dp"
+                        app:wlv_waveAmplitude="70"
+                        app:wlv_waveColor="@color/colorPrimaryDark"
+                />
+
+                <TextView
+                        android:gravity="center"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="Вечеринки \n и шоу"
+                        android:textColor="#000"
+                        android:textSize="13dp"
+                        android:fontFamily="@font/exo_med"
+                />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+        <LinearLayout
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+
+            <LinearLayout
+                    android:layout_margin="7dp"
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+            >
+                <me.itangqi.waveloadingview.WaveLoadingView
+                        app:wlv_progressValue="0"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        app:wlv_borderColor="@color/colorPrimaryDark"
+                        app:wlv_borderWidth="2dp"
+                        app:wlv_shapeType="circle"
+                        app:wlv_round_rectangle="true"
+                        app:wlv_triangle_direction="north"
+                        app:wlv_titleCenterColor="#000"
+                        app:wlv_titleCenterSize="20dp"
+                        app:wlv_titleTopColor="#000"
+                        app:wlv_titleTopSize="20dp"
+                        app:wlv_titleBottomColor="#000"
+                        app:wlv_titleBottomSize="20dp"
+                        app:wlv_waveAmplitude="70"
+                        app:wlv_waveColor="@color/colorPrimaryDark"
+                />
+
+                <TextView
+                        android:gravity="center"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="Выставки \n и творчество"
+                        android:textColor="#000"
+                        android:textSize="13dp"
+                        android:fontFamily="@font/exo_med"
+                />
+
+            </LinearLayout>
+            <LinearLayout
+                    android:layout_margin="7dp"
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+            >
+                <me.itangqi.waveloadingview.WaveLoadingView
+                        app:wlv_progressValue="0"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        app:wlv_borderColor="@color/colorPrimaryDark"
+                        app:wlv_borderWidth="2dp"
+                        app:wlv_shapeType="circle"
+                        app:wlv_round_rectangle="true"
+                        app:wlv_triangle_direction="north"
+                        app:wlv_titleCenterColor="#000"
+                        app:wlv_titleCenterSize="20dp"
+                        app:wlv_titleTopColor="#000"
+                        app:wlv_titleTopSize="20dp"
+                        app:wlv_titleBottomColor="#000"
+                        app:wlv_titleBottomSize="20dp"
+                        app:wlv_waveAmplitude="70"
+                        app:wlv_waveColor="@color/colorPrimaryDark"
+                />
+
+                <TextView
+                        android:gravity="center"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="Юмор"
+                        android:textColor="#000"
+                        android:textSize="13dp"
+                        android:fontFamily="@font/exo_med"
+                />
+
+            </LinearLayout>
+            <LinearLayout
+                    android:layout_margin="7dp"
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+            >
+                <me.itangqi.waveloadingview.WaveLoadingView
+                        app:wlv_progressValue="0"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        app:wlv_borderColor="@color/colorPrimaryDark"
+                        app:wlv_borderWidth="2dp"
+                        app:wlv_shapeType="circle"
+                        app:wlv_round_rectangle="true"
+                        app:wlv_triangle_direction="north"
+                        app:wlv_titleCenterColor="#000"
+                        app:wlv_titleCenterSize="20dp"
+                        app:wlv_titleTopColor="#000"
+                        app:wlv_titleTopSize="20dp"
+                        app:wlv_titleBottomColor="#000"
+                        app:wlv_titleBottomSize="20dp"
+                        app:wlv_waveAmplitude="70"
+                        app:wlv_waveColor="@color/colorPrimaryDark"
+                />
+
+                <TextView
+                        android:gravity="center"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="Концерты \n и фестивали"
+                        android:textColor="#000"
+                        android:textSize="13dp"
+                        android:fontFamily="@font/exo_med"
+                />
+
+            </LinearLayout>
+
+        </LinearLayout>
+        <LinearLayout
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+            <LinearLayout
+                    android:layout_margin="7dp"
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+            >
+                <me.itangqi.waveloadingview.WaveLoadingView
+                        app:wlv_progressValue="0"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        app:wlv_borderColor="@color/colorPrimaryDark"
+                        app:wlv_borderWidth="2dp"
+                        app:wlv_shapeType="circle"
+                        app:wlv_round_rectangle="true"
+                        app:wlv_triangle_direction="north"
+                        app:wlv_titleCenterColor="#000"
+                        app:wlv_titleCenterSize="20dp"
+                        app:wlv_titleTopColor="#000"
+                        app:wlv_titleTopSize="20dp"
+                        app:wlv_titleBottomColor="#000"
+                        app:wlv_titleBottomSize="20dp"
+                        app:wlv_waveAmplitude="70"
+                        app:wlv_waveColor="@color/colorPrimaryDark"
+                />
+
+                <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="Мода"
+                        android:textColor="#000"
+                        android:textSize="13dp"
+                        android:fontFamily="@font/exo_med"
+                />
+
+            </LinearLayout>
+            <LinearLayout
+                    android:layout_margin="7dp"
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+            >
+                <me.itangqi.waveloadingview.WaveLoadingView
+                        app:wlv_progressValue="0"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        app:wlv_borderColor="@color/colorPrimaryDark"
+                        app:wlv_borderWidth="2dp"
+                        app:wlv_shapeType="circle"
+                        app:wlv_round_rectangle="true"
+                        app:wlv_triangle_direction="north"
+                        app:wlv_titleCenterColor="#000"
+                        app:wlv_titleCenterSize="20dp"
+                        app:wlv_titleTopColor="#000"
+                        app:wlv_titleTopSize="20dp"
+                        app:wlv_titleBottomColor="#000"
+                        app:wlv_titleBottomSize="20dp"
+                        app:wlv_waveAmplitude="70"
+                        app:wlv_waveColor="@color/colorPrimaryDark"
+                />
+
+                <TextView
+                        android:gravity="center"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="Игры \n  квесты"
+                        android:textColor="#000"
+                        android:textSize="13dp"
+                        android:fontFamily="@font/exo_med"
+                />
+
+            </LinearLayout>
+            <LinearLayout
+                    android:layout_margin="7dp"
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+            >
+                <me.itangqi.waveloadingview.WaveLoadingView
+                        app:wlv_progressValue="0"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        app:wlv_borderColor="@color/colorPrimaryDark"
+                        app:wlv_borderWidth="2dp"
+                        app:wlv_shapeType="circle"
+                        app:wlv_round_rectangle="true"
+                        app:wlv_triangle_direction="north"
+                        app:wlv_titleCenterColor="#000"
+                        app:wlv_titleCenterSize="20dp"
+                        app:wlv_titleTopColor="#000"
+                        app:wlv_titleTopSize="20dp"
+                        app:wlv_titleBottomColor="#000"
+                        app:wlv_titleBottomSize="20dp"
+                        app:wlv_waveAmplitude="70"
+                        app:wlv_waveColor="@color/colorPrimaryDark"
+                />
+
+                <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="Романтика"
+                        android:textColor="#000"
+                        android:textSize="13dp"
+                        android:fontFamily="@font/exo_med"
+                />
+
+            </LinearLayout>
+            <LinearLayout
+                    android:layout_margin="7dp"
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+            >
+                <me.itangqi.waveloadingview.WaveLoadingView
+                        android:layout_gravity="center"
+                        app:wlv_progressValue="0"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        app:wlv_borderColor="@color/colorPrimaryDark"
+                        app:wlv_borderWidth="2dp"
+                        app:wlv_shapeType="circle"
+                        app:wlv_round_rectangle="true"
+                        app:wlv_triangle_direction="north"
+                        app:wlv_titleCenterColor="#000"
+                        app:wlv_titleCenterSize="20dp"
+                        app:wlv_titleTopColor="#000"
+                        app:wlv_titleTopSize="20dp"
+                        app:wlv_titleBottomColor="#000"
+                        app:wlv_titleBottomSize="20dp"
+                        app:wlv_waveAmplitude="70"
+                        app:wlv_waveColor="@color/colorPrimaryDark"
+                />
+
+                <TextView
+                        android:gravity="center"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="Активный отдых"
+                        android:textColor="#000"
+                        android:textSize="13dp"
+                        android:fontFamily="@font/exo_med"
+                />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>

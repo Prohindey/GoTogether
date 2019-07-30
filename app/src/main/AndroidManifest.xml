@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          xmlns:dist="http://schemas.android.com/apk/distribution"
+          xmlns:tools="http://schemas.android.com/tools"
+          package="com.example.gotogetherv3"
+            android:targetSandboxVersion="1">
+
+    <dist:module dist:instant="true"/>
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <application
+            android:usesCleartextTraffic="true"
+            android:allowBackup="true"
+            android:icon="@mipmap/ic_launcher"
+            android:label="@string/app_name"
+            android:roundIcon="@mipmap/ic_launcher_round"
+            android:supportsRtl="true"
+            android:theme="@style/AppTheme">
+        <activity android:name=".Registration.Registration">
+        </activity>
+        <activity android:name=".Registration.Login">
+        </activity>
+        <activity android:name=".Registration.Log_Reg">
+        </activity>
+        <activity android:name=".Full_chat">
+        </activity>
+        <activity android:name=".Full_card_activity">
+        </activity>
+        <activity android:name=".Regist_activity">
+        </activity>
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+
+        <meta-data
+                android:name="com.google.android.maps.v2.API_KEY"
+                android:value="AIzaSyD3zwGC9TaLz_STuaWiVCeXwyx5-0S9B-I"/>
+    </application>
+
+</manifest>

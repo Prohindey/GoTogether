@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true">
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:text="Email:"
+                android:textColor="#000"
+                android:fontFamily="@font/exo_med"/>
+        <EditText
+                android:id="@+id/registration_registr_email"
+                android:layout_width="270dp"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:backgroundTint="#B59DFA"
+        />
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:text="Пароль:"
+                android:textColor="#000"
+                android:fontFamily="@font/exo_med"/>
+        <EditText
+                android:id="@+id/registration_registr_pas"
+                android:layout_width="270dp"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:backgroundTint="#B59DFA"
+        />
+
+
+
+    </LinearLayout>
+
+</RelativeLayout>

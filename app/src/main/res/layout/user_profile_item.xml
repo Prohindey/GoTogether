@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+
+    <androidx.cardview.widget.CardView
+            app:cardCornerRadius="9dp"
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardElevation="1dp">
+
+        <ImageView
+                android:scaleType="centerCrop"
+                android:id="@+id/user_profile_item_image"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+
+       <RelativeLayout
+               android:layout_width="match_parent"
+               android:layout_height="match_parent">
+
+         <androidx.cardview.widget.CardView
+                 android:alpha="0.7"
+                 android:layout_margin="6dp"
+                 app:cardCornerRadius="6dp"
+                 android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content">
+             <RelativeLayout
+                     android:id="@+id/user_profile_cont_main"
+                     android:layout_width="wrap_content" android:layout_height="wrap_content">
+
+                 <TextView
+                         android:fontFamily="@font/exo_bold"
+                         android:id="@+id/user_profile_item_name"
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content"
+                         android:textSize="27dp"
+                         android:textColor="#000"
+                         android:text="Кино"
+                         android:layout_margin="10dp"
+                 />
+
+                 <LinearLayout
+                         android:layout_marginBottom="10dp"
+                         android:layout_below="@+id/user_profile_item_name"
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content"
+                         android:orientation="horizontal"
+                 >
+                     <LinearLayout
+                             android:layout_marginLeft="10dp"
+                             android:orientation="vertical"
+                             android:layout_width="wrap_content"
+                             android:layout_height="wrap_content">
+
+                         <TextView
+                                 android:fontFamily="@font/exo_reg"
+                                 android:textSize="15dp"
+                                 android:text="Дата:"
+                                 android:layout_width="wrap_content"
+                                 android:layout_height="wrap_content"
+                         />
+                         <TextView
+                                 android:fontFamily="@font/exo_med"
+                                 android:id="@+id/user_profile_item_date"
+                                 android:textColor="#000"
+                                 android:textSize="27dp"
+                                 android:text="19.02.2019"
+                                 android:layout_width="wrap_content"
+                                 android:layout_height="wrap_content"
+                         />
+
+
+                     </LinearLayout>
+
+                     <LinearLayout
+                             android:layout_marginLeft="15dp"
+                             android:orientation="vertical"
+                             android:layout_width="wrap_content"
+                             android:layout_height="wrap_content">
+
+                         <TextView
+                                 android:fontFamily="@font/exo_reg"
+                                 android:textSize="15dp"
+                                 android:text="Время:"
+                                 android:layout_width="wrap_content"
+                                 android:layout_height="wrap_content"
+                         />
+                         <TextView
+                                 android:layout_marginRight="10dp"
+                                 android:fontFamily="@font/exo_med"
+                                 android:id="@+id/user_profile_item_time"
+                                 android:textColor="#000"
+                                 android:textSize="27dp"
+                                 android:text="18:00"
+                                 android:layout_width="wrap_content"
+                                 android:layout_height="wrap_content"
+                         />
+                     </LinearLayout>
+                 </LinearLayout>
+             </RelativeLayout>
+         </androidx.cardview.widget.CardView>
+
+
+           <ImageView
+                   android:id="@+id/user_profile_item_icon"
+                   android:layout_marginRight="10dp"
+                   android:layout_alignParentRight="true"
+                   android:layout_centerVertical="true"
+                   android:layout_width="60dp"
+                   android:layout_height="60dp"
+           android:src="@drawable/delet_icon"/>
+       </RelativeLayout>
+
+
+
+
+
+
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>

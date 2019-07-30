@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity"
+android:background="#FFF">
+
+    <androidx.cardview.widget.CardView
+            android:id="@+id/main_tool_bar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardElevation="1dp">
+        <androidx.appcompat.widget.Toolbar
+                android:layout_width="match_parent"
+                android:layout_height="?actionBarSize"
+                android:background="#FFFFFF">
+
+            <RelativeLayout
+                    android:layout_marginLeft="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+
+                <RelativeLayout
+                        android:layout_centerVertical="true"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                    <ImageView
+                            android:layout_centerVertical="true"
+                            android:layout_alignParentLeft="true"
+                            android:id="@+id/search_icon"
+                            android:layout_width="35dp"
+                            android:layout_height="35dp"
+                            android:src="@drawable/ic_search_24px_outlined"
+                    />
+
+
+                    <EditText
+                            android:layout_centerVertical="true"
+                            android:layout_toLeftOf="@+id/serch_setting_icon"
+                            android:layout_marginLeft="5dp"
+                            android:fontFamily="@font/ubuntu_reg"
+                            android:layout_marginBottom="10dp"
+                            android:layout_toRightOf="@+id/search_icon"
+                            android:hint="Поиск"
+                            android:background="#FFF"
+                            android:id="@+id/search_edit"
+                            android:textSize="23dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                    />
+
+                    <ImageView
+                            android:layout_marginRight="10dp"
+                            android:layout_centerVertical="true"
+                            android:id="@+id/serch_setting_icon"
+                            android:layout_alignParentRight="true"
+                            android:layout_width="35dp"
+                            android:layout_height="35dp"
+                            android:src="@drawable/ic_search_set_icon"
+                    />
+
+
+                </RelativeLayout>
+
+                <TextView
+                        android:layout_centerVertical="true"
+                        android:layout_centerHorizontal="true"
+                        android:id="@+id/main_toolbar_text"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Для вас"
+                        android:textSize="27dp"
+                        android:textColor="#000"
+                        android:fontFamily="@font/exo_reg"
+                />
+
+
+
+                <androidx.cardview.widget.CardView
+                        app:cardElevation="0dp"
+                        android:id="@+id/main_user_icon_cont"
+                        app:cardCornerRadius="27dp"
+                        android:layout_width="34dp"
+                        android:layout_height="34dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_centerVertical="true"
+                        android:layout_alignParentRight="true">
+                    <ImageView
+                            android:id="@+id/main_user_icon"
+                            android:scaleType="centerCrop"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                    />
+
+                </androidx.cardview.widget.CardView>
+
+                <!--<de.hdodenhof.circleimageview.CircleImageView-->
+                <!--android:layout_marginRight="10dp"-->
+                <!--android:layout_centerVertical="true"-->
+                <!--android:layout_alignParentRight="true"-->
+                <!--android:id="@+id/main_user_icon"-->
+                <!--android:layout_width="40dp"-->
+                <!--android:layout_height="40dp"-->
+                <!--app:border_color="#FFFFFF"-->
+                <!--app:border_width="2dp"-->
+
+                <!--/>-->
+
+
+
+            </RelativeLayout>
+
+
+        </androidx.appcompat.widget.Toolbar>
+
+    </androidx.cardview.widget.CardView>
+
+
+
+    <FrameLayout
+            android:layout_below="@+id/main_tool_bar"
+            android:id="@+id/main_cont"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@+id/bot_nav_view">
+    </FrameLayout>
+
+
+    <!--<com.google.android.material.bottomnavigation.BottomNavigationView-->
+            <!--android:elevation="4dp"-->
+            <!--android:id="@+id/bot_nav_view"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_gravity="bottom"-->
+            <!--android:layout_alignParentBottom="true"-->
+            <!--app:menu="@menu/bot_nav_menu">-->
+
+    <!--</com.google.android.material.bottomnavigation.BottomNavigationView>-->
+
+    <androidx.cardview.widget.CardView
+            android:id="@+id/bot_nav_view"
+            android:layout_width="match_parent"
+            android:layout_height="49dp"
+            android:layout_alignParentBottom="true"
+    app:cardElevation="2dp"
+    >
+        <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+        >
+
+
+            <FrameLayout
+                    android:id="@+id/main_menu_search_cont"
+                    android:layout_width="140dp"
+                    android:layout_height="match_parent"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentLeft="true"
+                    >
+                <ImageView
+                        android:id="@+id/main_menu_search"
+                        android:layout_gravity="center"
+                        android:src="@drawable/main_icon_search_gray"
+                        android:layout_width="33dp"
+                        android:layout_height="33dp"
+                />
+
+            </FrameLayout>
+
+
+
+            <FrameLayout
+                    android:id="@+id/main_menu_cards_cont"
+
+                    android:layout_width="120dp"
+                    android:layout_height="match_parent"
+                    android:layout_centerVertical="true"
+                    android:layout_centerHorizontal="true">
+                <ImageView
+                        android:id="@+id/main_menu_cards"
+                        android:layout_gravity="center"
+                        android:src="@drawable/main_icon_cards_gray"
+                        android:layout_width="27dp"
+                        android:layout_height="27dp"
+
+                />
+
+            </FrameLayout>
+
+<FrameLayout
+        android:layout_width="140dp"
+        android:layout_height="match_parent"
+        android:id="@+id/main_menu_chat_cont"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+>
+    <ImageView
+            android:id="@+id/main_menu_chat"
+            android:src="@drawable/main_icon_chat_gray"
+            android:layout_width="28dp"
+            android:layout_height="28dp"
+android:layout_gravity="center"
+    />
+
+</FrameLayout>
+
+
+
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>
